@@ -8,14 +8,14 @@ import {
 } from "@heroicons/react/solid";
 import { Disclosure, Transition } from "@headlessui/react";
 
-const JSIcon = require("../assets/icons/JSIcon.png");
+const JSIcon = require("../assets/logos/Flutter.png");
 const TSIcon = require("../assets/icons/TSIcon.png");
 
 const MobileMenu = () => {
   const projects = [
     {
-      name: "First Project",
-      href: "#",
+      name: "Nimmadhi",
+      href: "https://github.com/KirthiVignesh/Nimmadhi",
       icon: <img
       src={JSIcon}
       alt="JS Icon"
@@ -24,8 +24,8 @@ const MobileMenu = () => {
       current: true,
     },
     {
-      name: "Second Project",
-      href: "#",
+      name: "Onlook",
+      href: "https://github.com/KirthiVignesh/onlook",
       icon:  <img
       src={TSIcon}
       alt="TS Icon"
@@ -34,8 +34,8 @@ const MobileMenu = () => {
       current: false,
     },
     {
-      name: "Third Project",
-      href: "#",
+      name: "Portfolio",
+      href: "https://github.com/KirthiVignesh/kirthi.github.io",
       icon: <img
       src={JSIcon}
       alt="JS Icon"
@@ -44,8 +44,8 @@ const MobileMenu = () => {
       current: false,
     },
     {
-      name: "Fourth Project",
-      href: "#",
+      name: "Skanmed",
+      href: "https://github.com/KirthiVignesh/skanmed",
       icon: <img
       src={JSIcon}
       alt="JS Icon"
